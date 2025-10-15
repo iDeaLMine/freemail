@@ -4,10 +4,9 @@ compatibility_date = "2024-01-01"
 
 # D1 数据库绑定
 [[d1_databases]]
-binding = "ideal_mail_db"
-database_name = "ideal-mail-db" #你的d1数据库名称
-database_id = "f4296dde-cd07-4c65-8dfb-8a139f18d616" # 你的database_id
-
+binding = "temp_mail_db"
+database_name = "temp-mail-db"
+database_id = "1e9e7fda-59a7-4f6b-b0af-a1070a70f4b8"
 # 环境变量
 [vars]
 MAIL_DOMAIN = "momoyu.space,qwert.site,aimoyu.life,stargroup.site,biubiu.store,aifind.world,idealoo.space,beideng.xyz,cb.x10.mx,beideng.x10.mx,a.8.5.b.0.d.0.0.1.0.a.2.ip6.arpa,nmq520.icu,vespera.icu,beideng.icu"
