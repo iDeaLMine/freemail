@@ -6,10 +6,14 @@ compatibility_date = "2024-01-01"
 [[d1_databases]]
 binding = "temp_mail_db"
 database_name = "temp-mail-db"
-database_id = "1e9e7fda-59a7-4f6b-b0af-a1070a70f4b8"
+database_id = "a99e977f-97e5-4e0e-9348-b6ff2a581b54"
 # 环境变量
 [vars]
 MAIL_DOMAIN = "momoyu.space,qwert.site,aimoyu.life,stargroup.site,biubiu.store,aifind.world,idealoo.space,beideng.xyz,cb.x10.mx,beideng.x10.mx,a.8.5.b.0.d.0.0.1.0.a.2.ip6.arpa,nmq520.icu,vespera.icu,beideng.icu"
+# 本地开发用的密码设置
+ADMIN_PASSWORD = "AaA@123569"  # 管理员密码，请修改为您想要的密码
+GUEST_PASSWORD = "AaA@123569"     # 访客密码（可选）
+JWT_TOKEN = "AaA-123569"  # JWT密钥，请修改为安全的随机字符串
 
 
 # 静态资源目录（Workers + Assets）
