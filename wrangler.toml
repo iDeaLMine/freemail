@@ -4,13 +4,13 @@ compatibility_date = "2024-01-01"
 
 # D1 数据库绑定
 [[d1_databases]]
-binding = "TEMP_MAIL_DB"
-database_name = "maill_free_db" #你的d1数据库名称
-database_id = "2cb7217c-ede6-49fa-84f1-9af9b13c6955" # 你的database_id
+binding = "ideal_mail_db"
+database_name = "ideal-mail-db" #你的d1数据库名称
+database_id = "f4296dde-cd07-4c65-8dfb-8a139f18d616" # 你的database_id
 
 # 环境变量
 [vars]
-MAIL_DOMAIN = "chengazhen.me,chengzhen.me,codecheng.me,coderazhen.dpdns.org,hex.cloudns.be,codercheng.chat,fuckhaitun.me,yongyuanxingfu.ip-ddns.com"
+MAIL_DOMAIN = "momoyu.space,qwert.site,aimoyu.life,stargroup.site,biubiu.store,aifind.world,idealoo.space,beideng.xyz,cb.x10.mx,beideng.x10.mx,a.8.5.b.0.d.0.0.1.0.a.2.ip6.arpa,nmq520.icu,vespera.icu,beideng.icu"
 
 
 # 静态资源目录（Workers + Assets）
