@@ -1,0 +1,28 @@
+name = "mailfree"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "TEMP_MAIL_DB"
+database_name = "maill_free_db" #你的d1数据库名称
+database_id = "2cb7217c-ede6-49fa-84f1-9af9b13c6955" # 你的database_id
+
+# 环境变量
+[vars]
+MAIL_DOMAIN = "chengazhen.me,chengzhen.me,codecheng.me,coderazhen.dpdns.org,hex.cloudns.be,codercheng.chat,fuckhaitun.me,yongyuanxingfu.ip-ddns.com"
+
+
+# 静态资源目录（Workers + Assets）
+[assets]
+directory = "public"
+# 显式指定绑定名，确保在 Worker 中通过 env.ASSETS 可用
+binding = "ASSETS"
+
+
+# wrangler.toml (wrangler v3.88.0^) 日志服务
+# [observability.logs]
+# enabled = true
+
+
+
